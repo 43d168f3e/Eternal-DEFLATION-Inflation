@@ -5,6 +5,6 @@ The programs in this page are distributed as free software under the GNU General
 
 Please  cite  this  work  and this web page if you use it.
 
-Patrick Lee Nash, Ph.D.
+Patrick L. Nash, Ph.D.
 (c) 2022, under GPL
 Professor, UTSA Physics and Astronomy, Retired (USA)
