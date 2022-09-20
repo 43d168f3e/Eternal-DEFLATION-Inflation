@@ -4,3 +4,7 @@ The (Split) Octonion algebra carries basic spinor representations of S = SO(4,4;
 The programs in this page are distributed as free software under the GNU General Public License. They are distributed in the hope that they wil be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU GPL for more details.
 
 Please  cite  this  work  and this web page if you use it.
+
+Patrick Lee Nash, Ph.D.
+(c) 2022, under GPL
+Professor, UTSA Physics and Astronomy, Retired (USA)
