@@ -8,3 +8,21 @@ Please  cite  this  work  and this web page if you use it.
 Patrick L. Nash, Ph.D.
 (c) 2022, under GPL
 Professor, UTSA Physics and Astronomy, Retired (USA)
+
+Addendum:
+-added a solution, "Einstein-Lovelock-Eternal-7+1,x7,x8.nb", for  7 space dimensions and 1 time dim [x8]; 
+in which :
+3 of the 7 space dimensions superluminally INFLATE forever,
+3 of the 7 space dimensions superluminally DEFLATE forever,
+and the 7th space dim [x7] curls up into a ring (hence a particle whose wave function is trapped in this ring acquires a mass contribution).
+
+-also, "Einstein-Lovelock-Eternal-4+4.nb" is a slightly simplified solution of my original nb for the interesting case
+in which 
+3 of the 4 space dimensions superluminally INFLATE,
+3 of the 4 time dimensions superluminally DEFLATE [while our beloved time coordinate, x4 (often called x0), is immune to this disturbance],
+and the 4th space dim [x8] curls up into a ring (hence a particle whose wave function is trapped in this ring acquires a mass contribution).
+
+Please forgive me for not editing the comments for these two new files completely; I did not think that it was necessary.
+
+Please do not get too excited about these '-flation' effects. At each point in the universe the labeling of x4 vs x5 vs x6 vs x7 should be arbitary [the tangents to the 4 axes at 2 points in spacetime should be related by a Lorentz gauge rotation]; I have not introduced a gauge Lorentz-covariant, covariant derivative in this formalism. Maybe a younger person, or some AI, can do this.
+
