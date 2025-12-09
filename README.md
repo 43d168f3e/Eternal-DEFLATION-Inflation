@@ -25,8 +25,8 @@ Professor, UTSA Physics and Astronomy, Retired (USA)
 Addendum:
 I coupled Einstein gravity to the wave function of the Universe (Universes of mass +/- M).
 
-Note that the Euler-Lagrange equations for the wave function of the Universe have (at least) 
-2 partner solutions, with masses +M and -M; (compare with  electron/positron solutions of the Dirac equation).
+The Euler-Lagrange equations for the wave function of the Universe may have (at least) 
+2 partner solutions, with masses +M and -M; (compare with  electron/positron solutions of the Dirac equation); if someone can solve these eqs then we will know.
 
 -accordingly, I added a scratch work solution, "WaveFunctionUniverse-4+4-Einstein-Lovelock-Nash.nb", for  4 space dimensions and 4 time dims  [ordinary time coordinate = x4];
 
