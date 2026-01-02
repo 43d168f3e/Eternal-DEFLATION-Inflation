@@ -1,6 +1,11 @@
 # Eternal Superluminal Inflation and DEFLATION
+HYPOTHESIS:  If, according to  the  Einstein  (or Einstein-Lovelock) eqs. superluminal  inflation/deflation  exists,
+             then    at  time x4 = 0 (before  the  particles  of  the  standard  model  exist) 
+             a  pair  of  universes  with MASSES   \[PlusMinus] M  is created
+             (i.e., universes  are  created in  pairs ).
+             Note that dark matter/dark energy  may  be  related  to wave function overlap  of the two universes
 
-We show (see scratch work Mathematica notebooks) that Universes are created in pairs, with masses +M and -M, at the 'big bang.'
+We show (see scratch work Mathematica notebooks) that Universes may be/are created in pairs, with masses +M and -M, at the 'big bang.'
 
 We also show (see scratch work Mathematica notebooks) that the Einstein-Lovelock vacuum field equations on an 8-dimensional spacetime M8
 possess two special solutions, one with 1 time dimension and one with 4 time dimensions. For the latter case,
@@ -26,10 +31,23 @@ Professor, UTSA Physics and Astronomy, Retired (USA)
 
 
 Addendum:
-I coupled Einstein gravity to the wave function of the Universe (Universes of mass +/- M).
 
-The Euler-Lagrange equations for the wave function of the Universe probably have (at least) 
-2 partner solutions, with masses +M and -M; (compare with  electron/positron solutions of the Dirac equation); if someone can solve these eqs then we will know for sure.
+I try to address the Question: Are Universe (s) of masses ± M created in pairs at time x4 = 0
+(before the particles of the standard model exist) ?
+Are dark matter/dark energy related to wave function overlap of these two universes?
+Indications are that the Euler-Lagrange equations for the wave function of the Universe probably have (at least) 
+2 partner solutions, with masses +M and -M; (compare with  electron/positron solutions of the Dirac equation; 
+however, our scenario unfolds before  the  particles  of  the  standard  model  exist).
+
+I coupled Einstein gravity to the wave function of the Universe (Universes of mass +/- M),
+and have solved the Euler-Lagrange equations for the wave function of the universe(s).
+Solutions are computed/displayed in  
+'Pair_Creation_of_Universes_WaveFunctionUniverse-4+4-Einstein-Lovelock-Nash-ALT.nb'/'Pair_Creation_of_Universes_WaveFunctionUniverse-4+4-Einstein-Lovelock-Nash-ALT.pdf'
+and  
+'ConvertMapleToMathematicaVersionALPHA.nb'/'ConvertMapleToMathematicaVersionALPHA.pdf.'
+
+I added 'ConvertMapleToMathematicaVersionALPHA.m,' which is a version-alpha parser I made to translate fromsolutions from maple to mathematica.
+
 
 Also, I have added a scratch work solution, "WaveFunctionUniverse-4+4-Einstein-Lovelock-Nash.nb", for  4 space dimensions and 4 time dims  [ordinary time coordinate = x4];
 
