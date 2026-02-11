@@ -1,0 +1,608 @@
+{{yZ0(z, t) = ((diff(yZ3(z, t), t, t)*exp(a4(t)) - 36*diff(yZ3(z, t), z,
+z)*tan(z)^2*exp(a4(t)) + diff(a4(t), t)^2*yZ3(z, t)*Q1*(Q1 - 2)*exp(-a4(t))/2 -
+Q1*diff(a4(t), t, t)*yZ3(z, t)*sinh(a4(t)) - exp(-3*a4(t))*diff(a4(t),
+t)^2*Q1^2*yZ3(z, t)/4 + exp(a4(t))*((-36*tan(z)^3 - 72*tan(z))*diff(yZ3(z, t),
+z) + yZ3(z, t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 -
+9)))*csch(a4(t)))/(2*diff(a4(t), t)*M*Q1), yZ1(z, t) = (-exp(-Q1*(2*a4(t) +
+exp(-2*a4(t)))/4)*cos(M*t)*diff(a4(t), t)^2*(exp(2*a4(t)) -
+1)^2*int(144*exp(exp(-2*a4(t))*Q1/4 + a4(t)*(Q1 -
+14)/2)*cos(M*t)*csch(a4(t))^3*(-int(16*sec(z)^2*(diff(a4(t),
+t)^2*cos(z)^3*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(yZ3(z, t), t,
+t, t, t)/4 - 9*sin(z)^2*diff(a4(t), t)^2*cos(z)*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), t, t, z, z) - (3*yZ3(z, t)*(-1/3 + exp(2*a4(t)) +
+exp(6*a4(t))/3 - exp(4*a4(t)))*Q1*cos(z)^3*diff(a4(t), t)^2*diff(a4(t), t, t, t,
+t))/8 - 3*(2*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(a4(t), t, t)/3
++ ((Q1 - 4/3)*exp(2*a4(t)) + (-Q1 + 4/3)*exp(4*a4(t)) + Q1*(exp(6*a4(t)) -
+1)/3)*diff(a4(t), t)^2)*cos(z)^3*diff(a4(t), t)*diff(yZ3(z, t), t, t, t)/4 -
+9*diff(a4(t), t)^2*sin(z)*(cos(z)^2 + 1)*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), t, t, z) - 36*sin(z)^2*((-exp(2*a4(t))/2 +
+exp(4*a4(t)) - exp(6*a4(t))/2)*diff(a4(t), t, t) + diff(a4(t),
+t)^2*(-exp(4*a4(t)) + exp(2*a4(t))))*cos(z)*diff(a4(t), t)*diff(yZ3(z, t), t, z,
+z) - ((cos(z)^3*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(yZ3(z, t),
+t, t) - 36*cos(z)*sin(z)^2*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), z, z) - (9*yZ3(z, t)*Q1*cos(z)^3*(-1/3 +
+exp(2*a4(t)) + exp(6*a4(t))/3 - exp(4*a4(t)))*diff(a4(t), t, t))/2 +
+(3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3 - 36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*((-2*Q1 - 3/2*Q1^2)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*exp(2*a4(t)) + (-3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3 +
+72*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) - 2*(-9 - ((Q1^2 + Q1)*diff(a4(t),
+t)^2)/2 + M^2)*yZ3(z, t)*cos(z)^3)*exp(4*a4(t)) + (diff(a4(t), t)*diff(yZ3(z,
+t), t)*Q1*cos(z)^3 - 36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z,
+t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*cos(z)^3)*exp(6*a4(t)) - Q1*(diff(a4(t),
+t)*exp(-2*a4(t))*Q1*yZ3(z, t) + 4*diff(yZ3(z, t), t) - 4*(Q1 + 1)*yZ3(z,
+t)*diff(a4(t), t))*cos(z)^3*diff(a4(t), t)/4)*diff(a4(t), t)*diff(a4(t), t, t,
+t))/4 + cos(z)^3*(2*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(a4(t),
+t, t)^2 - 3*((4/3 + Q1)*exp(2*a4(t)) + (-4/3 - Q1)*exp(4*a4(t)) +
+Q1*(exp(6*a4(t)) - 1)/3)*diff(a4(t), t)^2*diff(a4(t), t, t)/2 + (((3/2*Q1^2 +
+2*Q1 + 4)*diff(a4(t), t)^2 + M^2 - 9)*exp(2*a4(t)) + ((-Q1^2 - Q1 +
+4)*diff(a4(t), t)^2 - 2*M^2 + 18)*exp(4*a4(t)) + (Q1^2*diff(a4(t), t)^2/4 + M^2
+- 9)*exp(6*a4(t)) + diff(a4(t), t)^2*Q1*(exp(-2*a4(t))*Q1 - 4*Q1 -
+4)/4)*diff(a4(t), t)^2)*diff(yZ3(z, t), t, t)/4 - 36*sin(z)*((-exp(2*a4(t))/2 +
+exp(4*a4(t)) - exp(6*a4(t))/2)*diff(a4(t), t, t) + diff(a4(t),
+t)^2*(-exp(4*a4(t)) + exp(2*a4(t))))*(cos(z)^2 + 1)*diff(a4(t), t)*diff(yZ3(z,
+t), t, z) - 36*sin(z)^2*cos(z)*((exp(2*a4(t))/2 - exp(4*a4(t)) +
+exp(6*a4(t))/2)*diff(a4(t), t, t)^2 - diff(a4(t), t)^2*(-exp(4*a4(t)) +
+exp(2*a4(t)))*diff(a4(t), t, t)/2 + diff(a4(t), t)^4*(exp(2*a4(t)) +
+exp(4*a4(t))))*diff(yZ3(z, t), z, z) - (3*yZ3(z, t)*Q1*cos(z)^3*(-1/3 +
+exp(2*a4(t)) + exp(6*a4(t))/3 - exp(4*a4(t)))*diff(a4(t), t, t)^3)/4 +
+(((3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3)/4 - 18*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*(M - 3)*(M + 3)/2)*exp(2*a4(t)) +
+(-(3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3)/4 + 36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + (-M^2 + 9)*cos(z)^3*yZ3(z, t))*exp(4*a4(t)) +
+(diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3/4 - 18*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*(M - 3)*(M + 3)/2)*exp(6*a4(t)) -
+diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3/4)*diff(a4(t), t, t)^2 -
+(((((-2*Q1 - 3/2*Q1^2)*diff(a4(t), t)^2 + M^2 - 9)*cos(z)^3*diff(yZ3(z, t), t) +
+diff(a4(t), t)*(-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z, t)*(-9 +
+3*(3/4*Q1^2 + Q1)*diff(a4(t), t)^2 + M^2)*cos(z)^3))*exp(2*a4(t)) + (-2*(-9 -
+((Q1^2 + Q1)*diff(a4(t), t)^2)/2 + M^2)*cos(z)^3*diff(yZ3(z, t), t) -
+(-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z, t)*(-9 + 3*(1/4*Q1^2 +
+Q1)*diff(a4(t), t)^2 + M^2)*cos(z)^3)*diff(a4(t), t))*exp(4*a4(t)) +
+(diff(yZ3(z, t), t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*exp(6*a4(t)) +
+3*(Q1*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z, t), t)/3)*exp(-2*a4(t)) + 4*(Q1 +
+1)*diff(yZ3(z, t), t)/3 - 3*yZ3(z, t)*diff(a4(t), t)*Q1)*Q1*diff(a4(t),
+t)^2/4)*cos(z)^3)*diff(a4(t), t)*diff(a4(t), t, t))/2 + ((cos(z)^3*((-3/4*Q1^2 -
+Q1)*diff(a4(t), t)^2 + M^2 - 9)*diff(yZ3(z, t), t) + (-36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*((3/4*Q1^2 - Q1)*diff(a4(t), t)^2 +
+M^2 - 9))*diff(a4(t), t))*exp(2*a4(t)) + (-((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 +
+M^2 - 9)*cos(z)^3*diff(yZ3(z, t), t) + (-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z,
+t), z) + yZ3(z, t)*((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*diff(a4(t), t))*exp(4*a4(t)) + diff(a4(t),
+t)^2*cos(z)^3*Q1^2*(exp(-2*a4(t)) - 3)*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z,
+t), t))/4)*diff(a4(t), t)^3)/sqrt(sin(z)), z)*exp(4*a4(t))/72 +
+(Q1*(-2*exp(6*a4(t)) + exp(8*a4(t)) + exp(4*a4(t)))*int(8*(-diff(a4(t),
+t)*cos(z)^3*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, t, t)/2 + 18*diff(a4(t),
+t)*cos(z)*sin(z)^2*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, z, z) + diff(a4(t),
+t)*Q1*yZ3(z, t)*cos(z)^3*(-1 + cosh(2*a4(t)))*diff(a4(t), t, t, t)/2 +
+cos(z)^3*(((exp(2*a4(t)) - 1)*diff(a4(t), t, t))/2 + diff(a4(t),
+t)^2*(cosh(2*a4(t))*Q1 - Q1 + 1))*diff(yZ3(z, t), t, t) + 18*diff(a4(t),
+t)*sin(z)*(cos(z)^2 + 1)*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, z) -
+36*(((exp(2*a4(t)) - 1)*diff(a4(t), t, t))/2 + diff(a4(t),
+t)^2)*sin(z)^2*cos(z)*diff(yZ3(z, t), z, z) - Q1*yZ3(z, t)*cos(z)^3*(-1 +
+cosh(2*a4(t)))*diff(a4(t), t, t)^2/2 + ((-18*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z,
+t), z) + yZ3(z, t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*cos(z)^3/2)*exp(2*a4(t))
+- (3*diff(a4(t), t)^2*Q1*yZ3(z, t)*cos(z)^3*(4/3 + Q1)*exp(-2*a4(t)))/8 +
+diff(a4(t), t)*diff(yZ3(z, t), t)*cosh(2*a4(t))*Q1*cos(z)^3/2 + diff(a4(t),
+t)^2*yZ3(z, t)*exp(-4*a4(t))*Q1^2*cos(z)^3/8 - diff(a4(t), t)*diff(yZ3(z, t),
+t)*Q1*cos(z)^3/2 + 18*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) - yZ3(z,
+t)*cos(z)^3*((-3/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 - 9)/2)*diff(a4(t), t, t) +
+diff(a4(t), t)*(-cos(z)^3*(Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*diff(yZ3(z, t),
+t)*exp(2*a4(t))/2 + (((-(3*Q1)/4 - 1)*diff(yZ3(z, t), t) + yZ3(z, t)*diff(a4(t),
+t)*Q1)*diff(a4(t), t)^2*Q1*cos(z)^3*exp(-2*a4(t)))/2 - diff(a4(t),
+t)^2*Q1^2*cos(z)^3*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z, t),
+t)/2)*exp(-4*a4(t))/4 + (((3/4*Q1^2 + Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3*diff(yZ3(z, t), t))/2 + (-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t),
+z) + yZ3(z, t)*((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*diff(a4(t), t)))*sec(z)^2/sqrt(sin(z)), z)/72 + ((Q1*(-exp(8*a4(t))
++ exp(2*a4(t)) + 3*exp(6*a4(t)) - 3*exp(4*a4(t)))*diff(a4(t), t, t)/12 +
+((((Q1^2 - Q1)*diff(a4(t), t)^2)/2 + M^2)*exp(6*a4(t)))/3 + ((-Q1^2*diff(a4(t),
+t)^2/4 - M^2)*exp(8*a4(t)))/6 + ((-1/4*Q1^2 + 1/3*Q1)*diff(a4(t), t)^2 -
+M^2/6)*exp(4*a4(t)) + (((-1 + Q1)*exp(2*a4(t)) - Q1/4)*Q1*diff(a4(t),
+t)^2)/6)*int(2*(diff(yZ3(z, t), t, t)*exp(2*a4(t)) - 36*diff(yZ3(z, t), z,
+z)*tan(z)^2*exp(2*a4(t)) + (-Q1*diff(a4(t), t, t)*yZ3(z, t)/2 - Q1*diff(a4(t),
+t)*diff(yZ3(z, t), t) + (-36*tan(z)^3 - 72*tan(z))*diff(yZ3(z, t), z) + (M^2 -
+9)*yZ3(z, t))*exp(2*a4(t)) + Q1*(diff(a4(t), t, t)*yZ3(z, t) + diff(a4(t),
+t)*(diff(a4(t), t)*cosh(2*a4(t))*Q1*yZ3(z, t) + 2*diff(yZ3(z, t), t) + (-Q1 -
+2)*yZ3(z, t)*diff(a4(t), t)))/2)*cos(z)/sqrt(sin(z)), z))/6 +
+2*sin(z)^(3/2)*sec(z)*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*diff(yZ3(z, t), t, t, z) - 72*sin(z)^(7/2)*sec(z)^3*(exp(6*a4(t))
+- 2*exp(8*a4(t)) + exp(10*a4(t)))*diff(yZ3(z, t), z, z, z) +
+2*sec(z)*(diff(a4(t), t)*Q1*(exp(4*a4(t)) - 3*exp(6*a4(t)) + 3*exp(8*a4(t)) -
+exp(10*a4(t)))*diff(yZ3(z, t), t, z) + (Q1*(exp(4*a4(t)) - 3*exp(6*a4(t)) +
+3*exp(8*a4(t)) - exp(10*a4(t)))*diff(a4(t), t, t)/2 + ((-9/2*Q1^2 +
+2*Q1)*diff(a4(t), t)^2 + M^2 - 117)*exp(6*a4(t)) + ((3*Q1^2 - Q1)*diff(a4(t),
+t)^2 - 2*M^2 + 234)*exp(8*a4(t)) + (-(3*Q1^2*diff(a4(t), t)^2)/4 + M^2 -
+117)*exp(10*a4(t)) - 3*(4*(1/3 - Q1)*exp(4*a4(t)) +
+exp(2*a4(t))*Q1)*Q1*diff(a4(t), t)^2/4)*diff(yZ3(z, t), z))*sin(z)^(3/2) -
+396*diff(yZ3(z, t), z)*sec(z)^3*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*sin(z)^(7/2) - 216*diff(yZ3(z, t), z)*sec(z)^5*(exp(6*a4(t)) -
+2*exp(8*a4(t)) + exp(10*a4(t)))*sin(z)^(11/2) - 324*diff(yZ3(z, t), z,
+z)*sec(z)^2*(exp(6*a4(t)) - 2*exp(8*a4(t)) + exp(10*a4(t)))*sin(z)^(5/2) -
+216*diff(yZ3(z, t), z, z)*sec(z)^4*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*sin(z)^(9/2) + ((exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*diff(yZ3(z, t), t, t) + yZ3(z, t)*Q1*(exp(4*a4(t)) -
+3*exp(6*a4(t)) + 3*exp(8*a4(t)) - exp(10*a4(t)))*diff(a4(t), t, t)/2 +
+(-3*Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + ((-9/2*Q1^2 + 2*Q1)*diff(a4(t), t)^2
++ M^2 - 9)*yZ3(z, t))*exp(6*a4(t)) + (3*Q1*diff(a4(t), t)*diff(yZ3(z, t), t) -
+2*yZ3(z, t)*(-9 + ((-3*Q1^2 + Q1)*diff(a4(t), t)^2)/2 + M^2))*exp(8*a4(t)) +
+(-Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + yZ3(z, t)*(-9 + M^2 -
+(3*Q1^2*diff(a4(t), t)^2)/4))*exp(10*a4(t)) - (3*Q1*(4*(-diff(yZ3(z, t), t)/3 +
+(1/3 - Q1)*yZ3(z, t)*diff(a4(t), t))*exp(4*a4(t)) + exp(2*a4(t))*diff(a4(t),
+t)*yZ3(z, t)*Q1)*diff(a4(t), t))/4)*sqrt(sin(z)))*diff(a4(t), t)^2)/diff(a4(t),
+t)^3, t)/384 - exp(-Q1*(2*a4(t) + exp(-2*a4(t)))/4)*sin(M*t)*diff(a4(t),
+t)^2*(exp(2*a4(t)) - 1)^2*int(144*exp(exp(-2*a4(t))*Q1/4 + a4(t)*(Q1 -
+14)/2)*sin(M*t)*csch(a4(t))^3*(-int(16*sec(z)^2*(diff(a4(t),
+t)^2*cos(z)^3*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(yZ3(z, t), t,
+t, t, t)/4 - 9*sin(z)^2*diff(a4(t), t)^2*cos(z)*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), t, t, z, z) - (3*yZ3(z, t)*(-1/3 + exp(2*a4(t)) +
+exp(6*a4(t))/3 - exp(4*a4(t)))*Q1*cos(z)^3*diff(a4(t), t)^2*diff(a4(t), t, t, t,
+t))/8 - 3*(2*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(a4(t), t, t)/3
++ ((Q1 - 4/3)*exp(2*a4(t)) + (-Q1 + 4/3)*exp(4*a4(t)) + Q1*(exp(6*a4(t)) -
+1)/3)*diff(a4(t), t)^2)*cos(z)^3*diff(a4(t), t)*diff(yZ3(z, t), t, t, t)/4 -
+9*diff(a4(t), t)^2*sin(z)*(cos(z)^2 + 1)*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), t, t, z) - 36*sin(z)^2*((-exp(2*a4(t))/2 +
+exp(4*a4(t)) - exp(6*a4(t))/2)*diff(a4(t), t, t) + diff(a4(t),
+t)^2*(-exp(4*a4(t)) + exp(2*a4(t))))*cos(z)*diff(a4(t), t)*diff(yZ3(z, t), t, z,
+z) - ((cos(z)^3*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(yZ3(z, t),
+t, t) - 36*cos(z)*sin(z)^2*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), z, z) - (9*yZ3(z, t)*Q1*cos(z)^3*(-1/3 +
+exp(2*a4(t)) + exp(6*a4(t))/3 - exp(4*a4(t)))*diff(a4(t), t, t))/2 +
+(3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3 - 36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*((-2*Q1 - 3/2*Q1^2)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*exp(2*a4(t)) + (-3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3 +
+72*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) - 2*(-9 - ((Q1^2 + Q1)*diff(a4(t),
+t)^2)/2 + M^2)*yZ3(z, t)*cos(z)^3)*exp(4*a4(t)) + (diff(a4(t), t)*diff(yZ3(z,
+t), t)*Q1*cos(z)^3 - 36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z,
+t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*cos(z)^3)*exp(6*a4(t)) - Q1*(diff(a4(t),
+t)*exp(-2*a4(t))*Q1*yZ3(z, t) + 4*diff(yZ3(z, t), t) - 4*(Q1 + 1)*yZ3(z,
+t)*diff(a4(t), t))*cos(z)^3*diff(a4(t), t)/4)*diff(a4(t), t)*diff(a4(t), t, t,
+t))/4 + cos(z)^3*(2*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(a4(t),
+t, t)^2 - 3*((4/3 + Q1)*exp(2*a4(t)) + (-4/3 - Q1)*exp(4*a4(t)) +
+Q1*(exp(6*a4(t)) - 1)/3)*diff(a4(t), t)^2*diff(a4(t), t, t)/2 + (((3/2*Q1^2 +
+2*Q1 + 4)*diff(a4(t), t)^2 + M^2 - 9)*exp(2*a4(t)) + ((-Q1^2 - Q1 +
+4)*diff(a4(t), t)^2 - 2*M^2 + 18)*exp(4*a4(t)) + (Q1^2*diff(a4(t), t)^2/4 + M^2
+- 9)*exp(6*a4(t)) + diff(a4(t), t)^2*Q1*(exp(-2*a4(t))*Q1 - 4*Q1 -
+4)/4)*diff(a4(t), t)^2)*diff(yZ3(z, t), t, t)/4 - 36*sin(z)*((-exp(2*a4(t))/2 +
+exp(4*a4(t)) - exp(6*a4(t))/2)*diff(a4(t), t, t) + diff(a4(t),
+t)^2*(-exp(4*a4(t)) + exp(2*a4(t))))*(cos(z)^2 + 1)*diff(a4(t), t)*diff(yZ3(z,
+t), t, z) - 36*sin(z)^2*cos(z)*((exp(2*a4(t))/2 - exp(4*a4(t)) +
+exp(6*a4(t))/2)*diff(a4(t), t, t)^2 - diff(a4(t), t)^2*(-exp(4*a4(t)) +
+exp(2*a4(t)))*diff(a4(t), t, t)/2 + diff(a4(t), t)^4*(exp(2*a4(t)) +
+exp(4*a4(t))))*diff(yZ3(z, t), z, z) - (3*yZ3(z, t)*Q1*cos(z)^3*(-1/3 +
+exp(2*a4(t)) + exp(6*a4(t))/3 - exp(4*a4(t)))*diff(a4(t), t, t)^3)/4 +
+(((3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3)/4 - 18*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*(M - 3)*(M + 3)/2)*exp(2*a4(t)) +
+(-(3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3)/4 + 36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + (-M^2 + 9)*cos(z)^3*yZ3(z, t))*exp(4*a4(t)) +
+(diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3/4 - 18*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*(M - 3)*(M + 3)/2)*exp(6*a4(t)) -
+diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3/4)*diff(a4(t), t, t)^2 -
+(((((-2*Q1 - 3/2*Q1^2)*diff(a4(t), t)^2 + M^2 - 9)*cos(z)^3*diff(yZ3(z, t), t) +
+diff(a4(t), t)*(-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z, t)*(-9 +
+3*(3/4*Q1^2 + Q1)*diff(a4(t), t)^2 + M^2)*cos(z)^3))*exp(2*a4(t)) + (-2*(-9 -
+((Q1^2 + Q1)*diff(a4(t), t)^2)/2 + M^2)*cos(z)^3*diff(yZ3(z, t), t) -
+(-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z, t)*(-9 + 3*(1/4*Q1^2 +
+Q1)*diff(a4(t), t)^2 + M^2)*cos(z)^3)*diff(a4(t), t))*exp(4*a4(t)) +
+(diff(yZ3(z, t), t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*exp(6*a4(t)) +
+3*(Q1*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z, t), t)/3)*exp(-2*a4(t)) + 4*(Q1 +
+1)*diff(yZ3(z, t), t)/3 - 3*yZ3(z, t)*diff(a4(t), t)*Q1)*Q1*diff(a4(t),
+t)^2/4)*cos(z)^3)*diff(a4(t), t)*diff(a4(t), t, t))/2 + ((cos(z)^3*((-3/4*Q1^2 -
+Q1)*diff(a4(t), t)^2 + M^2 - 9)*diff(yZ3(z, t), t) + (-36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*((3/4*Q1^2 - Q1)*diff(a4(t), t)^2 +
+M^2 - 9))*diff(a4(t), t))*exp(2*a4(t)) + (-((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 +
+M^2 - 9)*cos(z)^3*diff(yZ3(z, t), t) + (-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z,
+t), z) + yZ3(z, t)*((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*diff(a4(t), t))*exp(4*a4(t)) + diff(a4(t),
+t)^2*cos(z)^3*Q1^2*(exp(-2*a4(t)) - 3)*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z,
+t), t))/4)*diff(a4(t), t)^3)/sqrt(sin(z)), z)*exp(4*a4(t))/72 +
+(Q1*(-2*exp(6*a4(t)) + exp(8*a4(t)) + exp(4*a4(t)))*int(8*(-diff(a4(t),
+t)*cos(z)^3*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, t, t)/2 + 18*diff(a4(t),
+t)*cos(z)*sin(z)^2*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, z, z) + diff(a4(t),
+t)*Q1*yZ3(z, t)*cos(z)^3*(-1 + cosh(2*a4(t)))*diff(a4(t), t, t, t)/2 +
+cos(z)^3*(((exp(2*a4(t)) - 1)*diff(a4(t), t, t))/2 + diff(a4(t),
+t)^2*(cosh(2*a4(t))*Q1 - Q1 + 1))*diff(yZ3(z, t), t, t) + 18*diff(a4(t),
+t)*sin(z)*(cos(z)^2 + 1)*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, z) -
+36*(((exp(2*a4(t)) - 1)*diff(a4(t), t, t))/2 + diff(a4(t),
+t)^2)*sin(z)^2*cos(z)*diff(yZ3(z, t), z, z) - Q1*yZ3(z, t)*cos(z)^3*(-1 +
+cosh(2*a4(t)))*diff(a4(t), t, t)^2/2 + ((-18*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z,
+t), z) + yZ3(z, t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*cos(z)^3/2)*exp(2*a4(t))
+- (3*diff(a4(t), t)^2*Q1*yZ3(z, t)*cos(z)^3*(4/3 + Q1)*exp(-2*a4(t)))/8 +
+diff(a4(t), t)*diff(yZ3(z, t), t)*cosh(2*a4(t))*Q1*cos(z)^3/2 + diff(a4(t),
+t)^2*yZ3(z, t)*exp(-4*a4(t))*Q1^2*cos(z)^3/8 - diff(a4(t), t)*diff(yZ3(z, t),
+t)*Q1*cos(z)^3/2 + 18*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) - yZ3(z,
+t)*cos(z)^3*((-3/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 - 9)/2)*diff(a4(t), t, t) +
+diff(a4(t), t)*(-cos(z)^3*(Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*diff(yZ3(z, t),
+t)*exp(2*a4(t))/2 + (((-(3*Q1)/4 - 1)*diff(yZ3(z, t), t) + yZ3(z, t)*diff(a4(t),
+t)*Q1)*diff(a4(t), t)^2*Q1*cos(z)^3*exp(-2*a4(t)))/2 - diff(a4(t),
+t)^2*Q1^2*cos(z)^3*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z, t),
+t)/2)*exp(-4*a4(t))/4 + (((3/4*Q1^2 + Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3*diff(yZ3(z, t), t))/2 + (-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t),
+z) + yZ3(z, t)*((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*diff(a4(t), t)))*sec(z)^2/sqrt(sin(z)), z)/72 + ((Q1*(-exp(8*a4(t))
++ exp(2*a4(t)) + 3*exp(6*a4(t)) - 3*exp(4*a4(t)))*diff(a4(t), t, t)/12 +
+((((Q1^2 - Q1)*diff(a4(t), t)^2)/2 + M^2)*exp(6*a4(t)))/3 + ((-Q1^2*diff(a4(t),
+t)^2/4 - M^2)*exp(8*a4(t)))/6 + ((-1/4*Q1^2 + 1/3*Q1)*diff(a4(t), t)^2 -
+M^2/6)*exp(4*a4(t)) + (((-1 + Q1)*exp(2*a4(t)) - Q1/4)*Q1*diff(a4(t),
+t)^2)/6)*int(2*(diff(yZ3(z, t), t, t)*exp(2*a4(t)) - 36*diff(yZ3(z, t), z,
+z)*tan(z)^2*exp(2*a4(t)) + (-Q1*diff(a4(t), t, t)*yZ3(z, t)/2 - Q1*diff(a4(t),
+t)*diff(yZ3(z, t), t) + (-36*tan(z)^3 - 72*tan(z))*diff(yZ3(z, t), z) + (M^2 -
+9)*yZ3(z, t))*exp(2*a4(t)) + Q1*(diff(a4(t), t, t)*yZ3(z, t) + diff(a4(t),
+t)*(diff(a4(t), t)*cosh(2*a4(t))*Q1*yZ3(z, t) + 2*diff(yZ3(z, t), t) + (-Q1 -
+2)*yZ3(z, t)*diff(a4(t), t)))/2)*cos(z)/sqrt(sin(z)), z))/6 +
+2*sin(z)^(3/2)*sec(z)*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*diff(yZ3(z, t), t, t, z) - 72*sin(z)^(7/2)*sec(z)^3*(exp(6*a4(t))
+- 2*exp(8*a4(t)) + exp(10*a4(t)))*diff(yZ3(z, t), z, z, z) +
+2*sec(z)*(diff(a4(t), t)*Q1*(exp(4*a4(t)) - 3*exp(6*a4(t)) + 3*exp(8*a4(t)) -
+exp(10*a4(t)))*diff(yZ3(z, t), t, z) + (Q1*(exp(4*a4(t)) - 3*exp(6*a4(t)) +
+3*exp(8*a4(t)) - exp(10*a4(t)))*diff(a4(t), t, t)/2 + ((-9/2*Q1^2 +
+2*Q1)*diff(a4(t), t)^2 + M^2 - 117)*exp(6*a4(t)) + ((3*Q1^2 - Q1)*diff(a4(t),
+t)^2 - 2*M^2 + 234)*exp(8*a4(t)) + (-(3*Q1^2*diff(a4(t), t)^2)/4 + M^2 -
+117)*exp(10*a4(t)) - 3*(4*(1/3 - Q1)*exp(4*a4(t)) +
+exp(2*a4(t))*Q1)*Q1*diff(a4(t), t)^2/4)*diff(yZ3(z, t), z))*sin(z)^(3/2) -
+396*diff(yZ3(z, t), z)*sec(z)^3*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*sin(z)^(7/2) - 216*diff(yZ3(z, t), z)*sec(z)^5*(exp(6*a4(t)) -
+2*exp(8*a4(t)) + exp(10*a4(t)))*sin(z)^(11/2) - 324*diff(yZ3(z, t), z,
+z)*sec(z)^2*(exp(6*a4(t)) - 2*exp(8*a4(t)) + exp(10*a4(t)))*sin(z)^(5/2) -
+216*diff(yZ3(z, t), z, z)*sec(z)^4*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*sin(z)^(9/2) + ((exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*diff(yZ3(z, t), t, t) + yZ3(z, t)*Q1*(exp(4*a4(t)) -
+3*exp(6*a4(t)) + 3*exp(8*a4(t)) - exp(10*a4(t)))*diff(a4(t), t, t)/2 +
+(-3*Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + ((-9/2*Q1^2 + 2*Q1)*diff(a4(t), t)^2
++ M^2 - 9)*yZ3(z, t))*exp(6*a4(t)) + (3*Q1*diff(a4(t), t)*diff(yZ3(z, t), t) -
+2*yZ3(z, t)*(-9 + ((-3*Q1^2 + Q1)*diff(a4(t), t)^2)/2 + M^2))*exp(8*a4(t)) +
+(-Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + yZ3(z, t)*(-9 + M^2 -
+(3*Q1^2*diff(a4(t), t)^2)/4))*exp(10*a4(t)) - (3*Q1*(4*(-diff(yZ3(z, t), t)/3 +
+(1/3 - Q1)*yZ3(z, t)*diff(a4(t), t))*exp(4*a4(t)) + exp(2*a4(t))*diff(a4(t),
+t)*yZ3(z, t)*Q1)*diff(a4(t), t))/4)*sqrt(sin(z)))*diff(a4(t), t)^2)/diff(a4(t),
+t)^3, t)/384 + int(8*(diff(a4(t), t)*(-exp(4*a4(t)) + exp(2*a4(t)))*diff(yZ3(z,
+t), t, t, t)/2 - 18*diff(a4(t), t)*tan(z)^2*(-exp(4*a4(t)) +
+exp(2*a4(t)))*diff(yZ3(z, t), t, z, z) - yZ3(z, t)*Q1*(-1/2 - exp(4*a4(t))/2 +
+exp(2*a4(t)))*diff(a4(t), t)*diff(a4(t), t, t, t)/2 + ((-diff(a4(t), t, t)/2 +
+(1 - Q1)*diff(a4(t), t)^2)*exp(2*a4(t)) + exp(4*a4(t))*diff(a4(t), t, t)/2 +
+diff(a4(t), t)^2*Q1*(1 + exp(4*a4(t)))/2)*diff(yZ3(z, t), t, t) - 18*diff(a4(t),
+t)*tan(z)*(tan(z)^2 + 2)*(-exp(4*a4(t)) + exp(2*a4(t)))*diff(yZ3(z, t), t, z) -
+36*tan(z)^2*((diff(a4(t), t)^2 - diff(a4(t), t, t)/2)*exp(2*a4(t)) +
+exp(4*a4(t))*diff(a4(t), t, t)/2)*diff(yZ3(z, t), z, z) + (diff(a4(t), t,
+t)^2*Q1*yZ3(z, t)/2 + (-Q1*diff(a4(t), t)*diff(yZ3(z, t), t)/2 + 18*(tan(z)^3 +
+2*tan(z))*diff(yZ3(z, t), z) - yZ3(z, t)*((-3/4*Q1^2 - Q1)*diff(a4(t), t)^2 +
+M^2 - 9)/2)*diff(a4(t), t, t) + ((((3/4*Q1^2 + Q1)*diff(a4(t), t)^2 + M^2 -
+9)*diff(yZ3(z, t), t))/2 + (36*(-tan(z)^3 - 2*tan(z))*diff(yZ3(z, t), z) +
+yZ3(z, t)*(-diff(a4(t), t)^2*Q1 + M^2 - 9))*diff(a4(t), t))*diff(a4(t),
+t))*exp(2*a4(t)) - Q1*yZ3(z, t)*(1 + exp(4*a4(t)))*diff(a4(t), t, t)^2/4 +
+((Q1*diff(a4(t), t)*diff(yZ3(z, t), t)/4 + 18*(-tan(z)^3 - 2*tan(z))*diff(yZ3(z,
+t), z) + yZ3(z, t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)/2)*exp(4*a4(t)) +
+Q1*diff(a4(t), t)*(diff(a4(t), t)*exp(-2*a4(t))*Q1*yZ3(z, t) + 2*diff(yZ3(z, t),
+t) + (-3*Q1 - 4)*yZ3(z, t)*diff(a4(t), t))/8)*diff(a4(t), t, t) - diff(a4(t),
+t)*(diff(yZ3(z, t), t)*(Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*exp(4*a4(t)) +
+Q1*diff(a4(t), t)^2*(-diff(yZ3(z, t), t)*Q1*exp(-2*a4(t))/4 + diff(a4(t),
+t)*cosh(2*a4(t))*Q1*yZ3(z, t) + ((3*Q1)/4 + 1)*diff(yZ3(z, t), t) - yZ3(z,
+t)*diff(a4(t), t)*Q1))/2)*sqrt(sin(z))*cot(z), z)/24 + Q1*diff(a4(t), t)^2*(1 +
+csch(a4(t))*exp(-3*a4(t))*exp(2*a4(t))^2/2 -
+exp(2*a4(t))*(csch(a4(t))*exp(-3*a4(t)) + 1) +
+csch(a4(t))*exp(-3*a4(t))/2)*int(2*(diff(yZ3(z, t), t, t)*exp(2*a4(t)) -
+36*diff(yZ3(z, t), z, z)*tan(z)^2*exp(2*a4(t)) + (-Q1*diff(a4(t), t, t)*yZ3(z,
+t)/2 - Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + (-36*tan(z)^3 -
+72*tan(z))*diff(yZ3(z, t), z) + (M^2 - 9)*yZ3(z, t))*exp(2*a4(t)) +
+Q1*(diff(a4(t), t, t)*yZ3(z, t) + diff(a4(t), t)*(diff(a4(t),
+t)*cosh(2*a4(t))*Q1*yZ3(z, t) + 2*diff(yZ3(z, t), t) + (-Q1 - 2)*yZ3(z,
+t)*diff(a4(t), t)))/2)*sqrt(sin(z))*cot(z), z)/24 + M*Q1*diff(a4(t),
+t)^2*(exp(2*a4(t))^2*(cos(M*t)*c12 - sin(M*t)*c11) +
+2*exp(2*a4(t))*(-cos(M*t)*c12 + sin(M*t)*c11) + cos(M*t)*c12 -
+sin(M*t)*c11)*exp(-Q1*(2*a4(t) + exp(-2*a4(t)))/4) + 3*Q1*diff(a4(t),
+t)^2*(-2*tan(z)*diff(yZ3(z, t), z) - yZ3(z, t))*sqrt(sin(z))*exp(2*a4(t))^2 +
+6*Q1*diff(a4(t), t)^2*(2*tan(z)*diff(yZ3(z, t), z) + yZ3(z,
+t))*sqrt(sin(z))*exp(2*a4(t)) + 3*Q1*diff(a4(t), t)^2*(-2*tan(z)*diff(yZ3(z, t),
+z) - yZ3(z, t))*sqrt(sin(z)))/(sqrt(sin(z))*M*Q1*(exp(2*a4(t)) -
+1)^2*diff(a4(t), t)^2), yZ2(z, t) = (sin(M*t)*exp(-Q1*(2*a4(t) +
+exp(-2*a4(t)))/4)*diff(a4(t), t)*(exp(2*a4(t)) -
+1)*int(-144*exp(exp(-2*a4(t))*Q1/4 + a4(t)*(Q1 -
+14)/2)*cos(M*t)*csch(a4(t))^3*(-int(16*sec(z)^2*(diff(a4(t),
+t)^2*cos(z)^3*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(yZ3(z, t), t,
+t, t, t)/4 - 9*sin(z)^2*diff(a4(t), t)^2*cos(z)*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), t, t, z, z) - (3*yZ3(z, t)*(-1/3 + exp(2*a4(t)) +
+exp(6*a4(t))/3 - exp(4*a4(t)))*Q1*cos(z)^3*diff(a4(t), t)^2*diff(a4(t), t, t, t,
+t))/8 - 3*(2*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(a4(t), t, t)/3
++ ((Q1 - 4/3)*exp(2*a4(t)) + (-Q1 + 4/3)*exp(4*a4(t)) + Q1*(exp(6*a4(t)) -
+1)/3)*diff(a4(t), t)^2)*cos(z)^3*diff(a4(t), t)*diff(yZ3(z, t), t, t, t)/4 -
+9*diff(a4(t), t)^2*sin(z)*(cos(z)^2 + 1)*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), t, t, z) - 36*sin(z)^2*((-exp(2*a4(t))/2 +
+exp(4*a4(t)) - exp(6*a4(t))/2)*diff(a4(t), t, t) + diff(a4(t),
+t)^2*(-exp(4*a4(t)) + exp(2*a4(t))))*cos(z)*diff(a4(t), t)*diff(yZ3(z, t), t, z,
+z) - ((cos(z)^3*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(yZ3(z, t),
+t, t) - 36*cos(z)*sin(z)^2*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), z, z) - (9*yZ3(z, t)*Q1*cos(z)^3*(-1/3 +
+exp(2*a4(t)) + exp(6*a4(t))/3 - exp(4*a4(t)))*diff(a4(t), t, t))/2 +
+(3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3 - 36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*((-2*Q1 - 3/2*Q1^2)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*exp(2*a4(t)) + (-3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3 +
+72*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) - 2*(-9 - ((Q1^2 + Q1)*diff(a4(t),
+t)^2)/2 + M^2)*yZ3(z, t)*cos(z)^3)*exp(4*a4(t)) + (diff(a4(t), t)*diff(yZ3(z,
+t), t)*Q1*cos(z)^3 - 36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z,
+t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*cos(z)^3)*exp(6*a4(t)) - Q1*(diff(a4(t),
+t)*exp(-2*a4(t))*Q1*yZ3(z, t) + 4*diff(yZ3(z, t), t) - 4*(Q1 + 1)*yZ3(z,
+t)*diff(a4(t), t))*cos(z)^3*diff(a4(t), t)/4)*diff(a4(t), t)*diff(a4(t), t, t,
+t))/4 + cos(z)^3*(2*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(a4(t),
+t, t)^2 - 3*((4/3 + Q1)*exp(2*a4(t)) + (-4/3 - Q1)*exp(4*a4(t)) +
+Q1*(exp(6*a4(t)) - 1)/3)*diff(a4(t), t)^2*diff(a4(t), t, t)/2 + (((3/2*Q1^2 +
+2*Q1 + 4)*diff(a4(t), t)^2 + M^2 - 9)*exp(2*a4(t)) + ((-Q1^2 - Q1 +
+4)*diff(a4(t), t)^2 - 2*M^2 + 18)*exp(4*a4(t)) + (Q1^2*diff(a4(t), t)^2/4 + M^2
+- 9)*exp(6*a4(t)) + diff(a4(t), t)^2*Q1*(exp(-2*a4(t))*Q1 - 4*Q1 -
+4)/4)*diff(a4(t), t)^2)*diff(yZ3(z, t), t, t)/4 - 36*sin(z)*((-exp(2*a4(t))/2 +
+exp(4*a4(t)) - exp(6*a4(t))/2)*diff(a4(t), t, t) + diff(a4(t),
+t)^2*(-exp(4*a4(t)) + exp(2*a4(t))))*(cos(z)^2 + 1)*diff(a4(t), t)*diff(yZ3(z,
+t), t, z) - 36*sin(z)^2*cos(z)*((exp(2*a4(t))/2 - exp(4*a4(t)) +
+exp(6*a4(t))/2)*diff(a4(t), t, t)^2 - diff(a4(t), t)^2*(-exp(4*a4(t)) +
+exp(2*a4(t)))*diff(a4(t), t, t)/2 + diff(a4(t), t)^4*(exp(2*a4(t)) +
+exp(4*a4(t))))*diff(yZ3(z, t), z, z) - (3*yZ3(z, t)*Q1*cos(z)^3*(-1/3 +
+exp(2*a4(t)) + exp(6*a4(t))/3 - exp(4*a4(t)))*diff(a4(t), t, t)^3)/4 +
+(((3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3)/4 - 18*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*(M - 3)*(M + 3)/2)*exp(2*a4(t)) +
+(-(3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3)/4 + 36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + (-M^2 + 9)*cos(z)^3*yZ3(z, t))*exp(4*a4(t)) +
+(diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3/4 - 18*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*(M - 3)*(M + 3)/2)*exp(6*a4(t)) -
+diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3/4)*diff(a4(t), t, t)^2 -
+(((((-2*Q1 - 3/2*Q1^2)*diff(a4(t), t)^2 + M^2 - 9)*cos(z)^3*diff(yZ3(z, t), t) +
+diff(a4(t), t)*(-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z, t)*(-9 +
+3*(3/4*Q1^2 + Q1)*diff(a4(t), t)^2 + M^2)*cos(z)^3))*exp(2*a4(t)) + (-2*(-9 -
+((Q1^2 + Q1)*diff(a4(t), t)^2)/2 + M^2)*cos(z)^3*diff(yZ3(z, t), t) -
+(-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z, t)*(-9 + 3*(1/4*Q1^2 +
+Q1)*diff(a4(t), t)^2 + M^2)*cos(z)^3)*diff(a4(t), t))*exp(4*a4(t)) +
+(diff(yZ3(z, t), t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*exp(6*a4(t)) +
+3*(Q1*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z, t), t)/3)*exp(-2*a4(t)) + 4*(Q1 +
+1)*diff(yZ3(z, t), t)/3 - 3*yZ3(z, t)*diff(a4(t), t)*Q1)*Q1*diff(a4(t),
+t)^2/4)*cos(z)^3)*diff(a4(t), t)*diff(a4(t), t, t))/2 + ((cos(z)^3*((-3/4*Q1^2 -
+Q1)*diff(a4(t), t)^2 + M^2 - 9)*diff(yZ3(z, t), t) + (-36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*((3/4*Q1^2 - Q1)*diff(a4(t), t)^2 +
+M^2 - 9))*diff(a4(t), t))*exp(2*a4(t)) + (-((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 +
+M^2 - 9)*cos(z)^3*diff(yZ3(z, t), t) + (-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z,
+t), z) + yZ3(z, t)*((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*diff(a4(t), t))*exp(4*a4(t)) + diff(a4(t),
+t)^2*cos(z)^3*Q1^2*(exp(-2*a4(t)) - 3)*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z,
+t), t))/4)*diff(a4(t), t)^3)/sqrt(sin(z)), z)*exp(4*a4(t))/72 +
+(Q1*(-2*exp(6*a4(t)) + exp(8*a4(t)) + exp(4*a4(t)))*int(8*(-diff(a4(t),
+t)*cos(z)^3*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, t, t)/2 + 18*diff(a4(t),
+t)*cos(z)*sin(z)^2*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, z, z) + diff(a4(t),
+t)*Q1*yZ3(z, t)*cos(z)^3*(-1 + cosh(2*a4(t)))*diff(a4(t), t, t, t)/2 +
+cos(z)^3*(((exp(2*a4(t)) - 1)*diff(a4(t), t, t))/2 + diff(a4(t),
+t)^2*(cosh(2*a4(t))*Q1 - Q1 + 1))*diff(yZ3(z, t), t, t) + 18*diff(a4(t),
+t)*sin(z)*(cos(z)^2 + 1)*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, z) -
+36*(((exp(2*a4(t)) - 1)*diff(a4(t), t, t))/2 + diff(a4(t),
+t)^2)*sin(z)^2*cos(z)*diff(yZ3(z, t), z, z) - Q1*yZ3(z, t)*cos(z)^3*(-1 +
+cosh(2*a4(t)))*diff(a4(t), t, t)^2/2 + ((-18*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z,
+t), z) + yZ3(z, t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*cos(z)^3/2)*exp(2*a4(t))
+- (3*diff(a4(t), t)^2*Q1*yZ3(z, t)*cos(z)^3*(4/3 + Q1)*exp(-2*a4(t)))/8 +
+diff(a4(t), t)*diff(yZ3(z, t), t)*cosh(2*a4(t))*Q1*cos(z)^3/2 + diff(a4(t),
+t)^2*yZ3(z, t)*exp(-4*a4(t))*Q1^2*cos(z)^3/8 - diff(a4(t), t)*diff(yZ3(z, t),
+t)*Q1*cos(z)^3/2 + 18*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) - yZ3(z,
+t)*cos(z)^3*((-3/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 - 9)/2)*diff(a4(t), t, t) +
+diff(a4(t), t)*(-cos(z)^3*(Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*diff(yZ3(z, t),
+t)*exp(2*a4(t))/2 + (((-(3*Q1)/4 - 1)*diff(yZ3(z, t), t) + yZ3(z, t)*diff(a4(t),
+t)*Q1)*diff(a4(t), t)^2*Q1*cos(z)^3*exp(-2*a4(t)))/2 - diff(a4(t),
+t)^2*Q1^2*cos(z)^3*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z, t),
+t)/2)*exp(-4*a4(t))/4 + (((3/4*Q1^2 + Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3*diff(yZ3(z, t), t))/2 + (-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t),
+z) + yZ3(z, t)*((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*diff(a4(t), t)))*sec(z)^2/sqrt(sin(z)), z)/72 + ((Q1*(-exp(8*a4(t))
++ exp(2*a4(t)) + 3*exp(6*a4(t)) - 3*exp(4*a4(t)))*diff(a4(t), t, t)/12 +
+((((Q1^2 - Q1)*diff(a4(t), t)^2)/2 + M^2)*exp(6*a4(t)))/3 + ((-Q1^2*diff(a4(t),
+t)^2/4 - M^2)*exp(8*a4(t)))/6 + ((-1/4*Q1^2 + 1/3*Q1)*diff(a4(t), t)^2 -
+M^2/6)*exp(4*a4(t)) + (((-1 + Q1)*exp(2*a4(t)) - Q1/4)*Q1*diff(a4(t),
+t)^2)/6)*int(2*(diff(yZ3(z, t), t, t)*exp(2*a4(t)) - 36*diff(yZ3(z, t), z,
+z)*tan(z)^2*exp(2*a4(t)) + (-Q1*diff(a4(t), t, t)*yZ3(z, t)/2 - Q1*diff(a4(t),
+t)*diff(yZ3(z, t), t) + (-36*tan(z)^3 - 72*tan(z))*diff(yZ3(z, t), z) + (M^2 -
+9)*yZ3(z, t))*exp(2*a4(t)) + Q1*(diff(a4(t), t, t)*yZ3(z, t) + diff(a4(t),
+t)*(diff(a4(t), t)*cosh(2*a4(t))*Q1*yZ3(z, t) + 2*diff(yZ3(z, t), t) + (-Q1 -
+2)*yZ3(z, t)*diff(a4(t), t)))/2)*cos(z)/sqrt(sin(z)), z))/6 +
+2*sin(z)^(3/2)*sec(z)*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*diff(yZ3(z, t), t, t, z) - 72*sin(z)^(7/2)*sec(z)^3*(exp(6*a4(t))
+- 2*exp(8*a4(t)) + exp(10*a4(t)))*diff(yZ3(z, t), z, z, z) +
+2*sec(z)*(diff(a4(t), t)*Q1*(exp(4*a4(t)) - 3*exp(6*a4(t)) + 3*exp(8*a4(t)) -
+exp(10*a4(t)))*diff(yZ3(z, t), t, z) + (Q1*(exp(4*a4(t)) - 3*exp(6*a4(t)) +
+3*exp(8*a4(t)) - exp(10*a4(t)))*diff(a4(t), t, t)/2 + ((-9/2*Q1^2 +
+2*Q1)*diff(a4(t), t)^2 + M^2 - 117)*exp(6*a4(t)) + ((3*Q1^2 - Q1)*diff(a4(t),
+t)^2 - 2*M^2 + 234)*exp(8*a4(t)) + (-(3*Q1^2*diff(a4(t), t)^2)/4 + M^2 -
+117)*exp(10*a4(t)) - 3*(4*(1/3 - Q1)*exp(4*a4(t)) +
+exp(2*a4(t))*Q1)*Q1*diff(a4(t), t)^2/4)*diff(yZ3(z, t), z))*sin(z)^(3/2) -
+396*diff(yZ3(z, t), z)*sec(z)^3*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*sin(z)^(7/2) - 216*diff(yZ3(z, t), z)*sec(z)^5*(exp(6*a4(t)) -
+2*exp(8*a4(t)) + exp(10*a4(t)))*sin(z)^(11/2) - 324*diff(yZ3(z, t), z,
+z)*sec(z)^2*(exp(6*a4(t)) - 2*exp(8*a4(t)) + exp(10*a4(t)))*sin(z)^(5/2) -
+216*diff(yZ3(z, t), z, z)*sec(z)^4*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*sin(z)^(9/2) + ((exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*diff(yZ3(z, t), t, t) + yZ3(z, t)*Q1*(exp(4*a4(t)) -
+3*exp(6*a4(t)) + 3*exp(8*a4(t)) - exp(10*a4(t)))*diff(a4(t), t, t)/2 +
+(-3*Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + ((-9/2*Q1^2 + 2*Q1)*diff(a4(t), t)^2
++ M^2 - 9)*yZ3(z, t))*exp(6*a4(t)) + (3*Q1*diff(a4(t), t)*diff(yZ3(z, t), t) -
+2*yZ3(z, t)*(-9 + ((-3*Q1^2 + Q1)*diff(a4(t), t)^2)/2 + M^2))*exp(8*a4(t)) +
+(-Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + yZ3(z, t)*(-9 + M^2 -
+(3*Q1^2*diff(a4(t), t)^2)/4))*exp(10*a4(t)) - (3*Q1*(4*(-diff(yZ3(z, t), t)/3 +
+(1/3 - Q1)*yZ3(z, t)*diff(a4(t), t))*exp(4*a4(t)) + exp(2*a4(t))*diff(a4(t),
+t)*yZ3(z, t)*Q1)*diff(a4(t), t))/4)*sqrt(sin(z)))*diff(a4(t), t)^2)/diff(a4(t),
+t)^3, t)/384 - cos(M*t)*exp(-Q1*(2*a4(t) + exp(-2*a4(t)))/4)*diff(a4(t),
+t)*(exp(2*a4(t)) - 1)*int(-144*exp(exp(-2*a4(t))*Q1/4 + a4(t)*(Q1 -
+14)/2)*sin(M*t)*csch(a4(t))^3*(-int(16*sec(z)^2*(diff(a4(t),
+t)^2*cos(z)^3*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(yZ3(z, t), t,
+t, t, t)/4 - 9*sin(z)^2*diff(a4(t), t)^2*cos(z)*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), t, t, z, z) - (3*yZ3(z, t)*(-1/3 + exp(2*a4(t)) +
+exp(6*a4(t))/3 - exp(4*a4(t)))*Q1*cos(z)^3*diff(a4(t), t)^2*diff(a4(t), t, t, t,
+t))/8 - 3*(2*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(a4(t), t, t)/3
++ ((Q1 - 4/3)*exp(2*a4(t)) + (-Q1 + 4/3)*exp(4*a4(t)) + Q1*(exp(6*a4(t)) -
+1)/3)*diff(a4(t), t)^2)*cos(z)^3*diff(a4(t), t)*diff(yZ3(z, t), t, t, t)/4 -
+9*diff(a4(t), t)^2*sin(z)*(cos(z)^2 + 1)*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), t, t, z) - 36*sin(z)^2*((-exp(2*a4(t))/2 +
+exp(4*a4(t)) - exp(6*a4(t))/2)*diff(a4(t), t, t) + diff(a4(t),
+t)^2*(-exp(4*a4(t)) + exp(2*a4(t))))*cos(z)*diff(a4(t), t)*diff(yZ3(z, t), t, z,
+z) - ((cos(z)^3*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(yZ3(z, t),
+t, t) - 36*cos(z)*sin(z)^2*(exp(2*a4(t)) - 2*exp(4*a4(t)) +
+exp(6*a4(t)))*diff(yZ3(z, t), z, z) - (9*yZ3(z, t)*Q1*cos(z)^3*(-1/3 +
+exp(2*a4(t)) + exp(6*a4(t))/3 - exp(4*a4(t)))*diff(a4(t), t, t))/2 +
+(3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3 - 36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*((-2*Q1 - 3/2*Q1^2)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*exp(2*a4(t)) + (-3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3 +
+72*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) - 2*(-9 - ((Q1^2 + Q1)*diff(a4(t),
+t)^2)/2 + M^2)*yZ3(z, t)*cos(z)^3)*exp(4*a4(t)) + (diff(a4(t), t)*diff(yZ3(z,
+t), t)*Q1*cos(z)^3 - 36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z,
+t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*cos(z)^3)*exp(6*a4(t)) - Q1*(diff(a4(t),
+t)*exp(-2*a4(t))*Q1*yZ3(z, t) + 4*diff(yZ3(z, t), t) - 4*(Q1 + 1)*yZ3(z,
+t)*diff(a4(t), t))*cos(z)^3*diff(a4(t), t)/4)*diff(a4(t), t)*diff(a4(t), t, t,
+t))/4 + cos(z)^3*(2*(exp(2*a4(t)) - 2*exp(4*a4(t)) + exp(6*a4(t)))*diff(a4(t),
+t, t)^2 - 3*((4/3 + Q1)*exp(2*a4(t)) + (-4/3 - Q1)*exp(4*a4(t)) +
+Q1*(exp(6*a4(t)) - 1)/3)*diff(a4(t), t)^2*diff(a4(t), t, t)/2 + (((3/2*Q1^2 +
+2*Q1 + 4)*diff(a4(t), t)^2 + M^2 - 9)*exp(2*a4(t)) + ((-Q1^2 - Q1 +
+4)*diff(a4(t), t)^2 - 2*M^2 + 18)*exp(4*a4(t)) + (Q1^2*diff(a4(t), t)^2/4 + M^2
+- 9)*exp(6*a4(t)) + diff(a4(t), t)^2*Q1*(exp(-2*a4(t))*Q1 - 4*Q1 -
+4)/4)*diff(a4(t), t)^2)*diff(yZ3(z, t), t, t)/4 - 36*sin(z)*((-exp(2*a4(t))/2 +
+exp(4*a4(t)) - exp(6*a4(t))/2)*diff(a4(t), t, t) + diff(a4(t),
+t)^2*(-exp(4*a4(t)) + exp(2*a4(t))))*(cos(z)^2 + 1)*diff(a4(t), t)*diff(yZ3(z,
+t), t, z) - 36*sin(z)^2*cos(z)*((exp(2*a4(t))/2 - exp(4*a4(t)) +
+exp(6*a4(t))/2)*diff(a4(t), t, t)^2 - diff(a4(t), t)^2*(-exp(4*a4(t)) +
+exp(2*a4(t)))*diff(a4(t), t, t)/2 + diff(a4(t), t)^4*(exp(2*a4(t)) +
+exp(4*a4(t))))*diff(yZ3(z, t), z, z) - (3*yZ3(z, t)*Q1*cos(z)^3*(-1/3 +
+exp(2*a4(t)) + exp(6*a4(t))/3 - exp(4*a4(t)))*diff(a4(t), t, t)^3)/4 +
+(((3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3)/4 - 18*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*(M - 3)*(M + 3)/2)*exp(2*a4(t)) +
+(-(3*diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3)/4 + 36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + (-M^2 + 9)*cos(z)^3*yZ3(z, t))*exp(4*a4(t)) +
+(diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3/4 - 18*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*(M - 3)*(M + 3)/2)*exp(6*a4(t)) -
+diff(a4(t), t)*diff(yZ3(z, t), t)*Q1*cos(z)^3/4)*diff(a4(t), t, t)^2 -
+(((((-2*Q1 - 3/2*Q1^2)*diff(a4(t), t)^2 + M^2 - 9)*cos(z)^3*diff(yZ3(z, t), t) +
+diff(a4(t), t)*(-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z, t)*(-9 +
+3*(3/4*Q1^2 + Q1)*diff(a4(t), t)^2 + M^2)*cos(z)^3))*exp(2*a4(t)) + (-2*(-9 -
+((Q1^2 + Q1)*diff(a4(t), t)^2)/2 + M^2)*cos(z)^3*diff(yZ3(z, t), t) -
+(-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) + yZ3(z, t)*(-9 + 3*(1/4*Q1^2 +
+Q1)*diff(a4(t), t)^2 + M^2)*cos(z)^3)*diff(a4(t), t))*exp(4*a4(t)) +
+(diff(yZ3(z, t), t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*exp(6*a4(t)) +
+3*(Q1*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z, t), t)/3)*exp(-2*a4(t)) + 4*(Q1 +
+1)*diff(yZ3(z, t), t)/3 - 3*yZ3(z, t)*diff(a4(t), t)*Q1)*Q1*diff(a4(t),
+t)^2/4)*cos(z)^3)*diff(a4(t), t)*diff(a4(t), t, t))/2 + ((cos(z)^3*((-3/4*Q1^2 -
+Q1)*diff(a4(t), t)^2 + M^2 - 9)*diff(yZ3(z, t), t) + (-36*sin(z)*(cos(z)^2 +
+1)*diff(yZ3(z, t), z) + yZ3(z, t)*cos(z)^3*((3/4*Q1^2 - Q1)*diff(a4(t), t)^2 +
+M^2 - 9))*diff(a4(t), t))*exp(2*a4(t)) + (-((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 +
+M^2 - 9)*cos(z)^3*diff(yZ3(z, t), t) + (-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z,
+t), z) + yZ3(z, t)*((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*diff(a4(t), t))*exp(4*a4(t)) + diff(a4(t),
+t)^2*cos(z)^3*Q1^2*(exp(-2*a4(t)) - 3)*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z,
+t), t))/4)*diff(a4(t), t)^3)/sqrt(sin(z)), z)*exp(4*a4(t))/72 +
+(Q1*(-2*exp(6*a4(t)) + exp(8*a4(t)) + exp(4*a4(t)))*int(8*(-diff(a4(t),
+t)*cos(z)^3*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, t, t)/2 + 18*diff(a4(t),
+t)*cos(z)*sin(z)^2*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, z, z) + diff(a4(t),
+t)*Q1*yZ3(z, t)*cos(z)^3*(-1 + cosh(2*a4(t)))*diff(a4(t), t, t, t)/2 +
+cos(z)^3*(((exp(2*a4(t)) - 1)*diff(a4(t), t, t))/2 + diff(a4(t),
+t)^2*(cosh(2*a4(t))*Q1 - Q1 + 1))*diff(yZ3(z, t), t, t) + 18*diff(a4(t),
+t)*sin(z)*(cos(z)^2 + 1)*(exp(2*a4(t)) - 1)*diff(yZ3(z, t), t, z) -
+36*(((exp(2*a4(t)) - 1)*diff(a4(t), t, t))/2 + diff(a4(t),
+t)^2)*sin(z)^2*cos(z)*diff(yZ3(z, t), z, z) - Q1*yZ3(z, t)*cos(z)^3*(-1 +
+cosh(2*a4(t)))*diff(a4(t), t, t)^2/2 + ((-18*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z,
+t), z) + yZ3(z, t)*(-Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*cos(z)^3/2)*exp(2*a4(t))
+- (3*diff(a4(t), t)^2*Q1*yZ3(z, t)*cos(z)^3*(4/3 + Q1)*exp(-2*a4(t)))/8 +
+diff(a4(t), t)*diff(yZ3(z, t), t)*cosh(2*a4(t))*Q1*cos(z)^3/2 + diff(a4(t),
+t)^2*yZ3(z, t)*exp(-4*a4(t))*Q1^2*cos(z)^3/8 - diff(a4(t), t)*diff(yZ3(z, t),
+t)*Q1*cos(z)^3/2 + 18*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t), z) - yZ3(z,
+t)*cos(z)^3*((-3/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 - 9)/2)*diff(a4(t), t, t) +
+diff(a4(t), t)*(-cos(z)^3*(Q1^2*diff(a4(t), t)^2/4 + M^2 - 9)*diff(yZ3(z, t),
+t)*exp(2*a4(t))/2 + (((-(3*Q1)/4 - 1)*diff(yZ3(z, t), t) + yZ3(z, t)*diff(a4(t),
+t)*Q1)*diff(a4(t), t)^2*Q1*cos(z)^3*exp(-2*a4(t)))/2 - diff(a4(t),
+t)^2*Q1^2*cos(z)^3*(yZ3(z, t)*diff(a4(t), t) - diff(yZ3(z, t),
+t)/2)*exp(-4*a4(t))/4 + (((3/4*Q1^2 + Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3*diff(yZ3(z, t), t))/2 + (-36*sin(z)*(cos(z)^2 + 1)*diff(yZ3(z, t),
+z) + yZ3(z, t)*((-1/4*Q1^2 - Q1)*diff(a4(t), t)^2 + M^2 -
+9)*cos(z)^3)*diff(a4(t), t)))*sec(z)^2/sqrt(sin(z)), z)/72 + ((Q1*(-exp(8*a4(t))
++ exp(2*a4(t)) + 3*exp(6*a4(t)) - 3*exp(4*a4(t)))*diff(a4(t), t, t)/12 +
+((((Q1^2 - Q1)*diff(a4(t), t)^2)/2 + M^2)*exp(6*a4(t)))/3 + ((-Q1^2*diff(a4(t),
+t)^2/4 - M^2)*exp(8*a4(t)))/6 + ((-1/4*Q1^2 + 1/3*Q1)*diff(a4(t), t)^2 -
+M^2/6)*exp(4*a4(t)) + (((-1 + Q1)*exp(2*a4(t)) - Q1/4)*Q1*diff(a4(t),
+t)^2)/6)*int(2*(diff(yZ3(z, t), t, t)*exp(2*a4(t)) - 36*diff(yZ3(z, t), z,
+z)*tan(z)^2*exp(2*a4(t)) + (-Q1*diff(a4(t), t, t)*yZ3(z, t)/2 - Q1*diff(a4(t),
+t)*diff(yZ3(z, t), t) + (-36*tan(z)^3 - 72*tan(z))*diff(yZ3(z, t), z) + (M^2 -
+9)*yZ3(z, t))*exp(2*a4(t)) + Q1*(diff(a4(t), t, t)*yZ3(z, t) + diff(a4(t),
+t)*(diff(a4(t), t)*cosh(2*a4(t))*Q1*yZ3(z, t) + 2*diff(yZ3(z, t), t) + (-Q1 -
+2)*yZ3(z, t)*diff(a4(t), t)))/2)*cos(z)/sqrt(sin(z)), z))/6 +
+2*sin(z)^(3/2)*sec(z)*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*diff(yZ3(z, t), t, t, z) - 72*sin(z)^(7/2)*sec(z)^3*(exp(6*a4(t))
+- 2*exp(8*a4(t)) + exp(10*a4(t)))*diff(yZ3(z, t), z, z, z) +
+2*sec(z)*(diff(a4(t), t)*Q1*(exp(4*a4(t)) - 3*exp(6*a4(t)) + 3*exp(8*a4(t)) -
+exp(10*a4(t)))*diff(yZ3(z, t), t, z) + (Q1*(exp(4*a4(t)) - 3*exp(6*a4(t)) +
+3*exp(8*a4(t)) - exp(10*a4(t)))*diff(a4(t), t, t)/2 + ((-9/2*Q1^2 +
+2*Q1)*diff(a4(t), t)^2 + M^2 - 117)*exp(6*a4(t)) + ((3*Q1^2 - Q1)*diff(a4(t),
+t)^2 - 2*M^2 + 234)*exp(8*a4(t)) + (-(3*Q1^2*diff(a4(t), t)^2)/4 + M^2 -
+117)*exp(10*a4(t)) - 3*(4*(1/3 - Q1)*exp(4*a4(t)) +
+exp(2*a4(t))*Q1)*Q1*diff(a4(t), t)^2/4)*diff(yZ3(z, t), z))*sin(z)^(3/2) -
+396*diff(yZ3(z, t), z)*sec(z)^3*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*sin(z)^(7/2) - 216*diff(yZ3(z, t), z)*sec(z)^5*(exp(6*a4(t)) -
+2*exp(8*a4(t)) + exp(10*a4(t)))*sin(z)^(11/2) - 324*diff(yZ3(z, t), z,
+z)*sec(z)^2*(exp(6*a4(t)) - 2*exp(8*a4(t)) + exp(10*a4(t)))*sin(z)^(5/2) -
+216*diff(yZ3(z, t), z, z)*sec(z)^4*(exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*sin(z)^(9/2) + ((exp(6*a4(t)) - 2*exp(8*a4(t)) +
+exp(10*a4(t)))*diff(yZ3(z, t), t, t) + yZ3(z, t)*Q1*(exp(4*a4(t)) -
+3*exp(6*a4(t)) + 3*exp(8*a4(t)) - exp(10*a4(t)))*diff(a4(t), t, t)/2 +
+(-3*Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + ((-9/2*Q1^2 + 2*Q1)*diff(a4(t), t)^2
++ M^2 - 9)*yZ3(z, t))*exp(6*a4(t)) + (3*Q1*diff(a4(t), t)*diff(yZ3(z, t), t) -
+2*yZ3(z, t)*(-9 + ((-3*Q1^2 + Q1)*diff(a4(t), t)^2)/2 + M^2))*exp(8*a4(t)) +
+(-Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + yZ3(z, t)*(-9 + M^2 -
+(3*Q1^2*diff(a4(t), t)^2)/4))*exp(10*a4(t)) - (3*Q1*(4*(-diff(yZ3(z, t), t)/3 +
+(1/3 - Q1)*yZ3(z, t)*diff(a4(t), t))*exp(4*a4(t)) + exp(2*a4(t))*diff(a4(t),
+t)*yZ3(z, t)*Q1)*diff(a4(t), t))/4)*sqrt(sin(z)))*diff(a4(t), t)^2)/diff(a4(t),
+t)^3, t)/384 + (-int(2*(diff(yZ3(z, t), t, t)*exp(2*a4(t)) - 36*diff(yZ3(z, t),
+z, z)*tan(z)^2*exp(2*a4(t)) + (-Q1*diff(a4(t), t, t)*yZ3(z, t)/2 -
+Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + (-36*tan(z)^3 - 72*tan(z))*diff(yZ3(z,
+t), z) + (M^2 - 9)*yZ3(z, t))*exp(2*a4(t)) + Q1*(diff(a4(t), t, t)*yZ3(z, t) +
+diff(a4(t), t)*(diff(a4(t), t)*cosh(2*a4(t))*Q1*yZ3(z, t) + 2*diff(yZ3(z, t), t)
++ (-Q1 - 2)*yZ3(z, t)*diff(a4(t), t)))/2)*sqrt(sin(z))*cot(z), z)/12 +
+diff(a4(t), t)*Q1*exp(-Q1*(2*a4(t) + exp(-2*a4(t)))/4)*(exp(2*a4(t)) -
+1)*(cos(M*t)*c11 + sin(M*t)*c12))*M)/(sqrt(sin(z))*Q1*M*diff(a4(t),
+t)*(exp(2*a4(t)) - 1))}, [diff(yZ3(z, t), t, t, t, t) =
+(288*tan(z)^2*diff(a4(t), t)^2*diff(yZ3(z, t), t, t, z, z) -
+5184*tan(z)^4*diff(a4(t), t)^2*diff(yZ3(z, t), z, z, z, z) - 2*yZ3(z,
+t)*diff(a4(t), t)^2*Q1*(exp(-2*a4(t)) - 1)*diff(a4(t), t, t, t, t) +
+8*diff(a4(t), t)*(diff(a4(t), t, t) + diff(a4(t), t)^2*(-1 +
+coth(a4(t))))*diff(yZ3(z, t), t, t, t) - 288*diff(a4(t),
+t)*tan(z)^2*(diff(a4(t), t, t) + diff(a4(t), t)^2*(-1 +
+coth(a4(t))))*diff(yZ3(z, t), t, z, z) + 288*tan(z)*diff(a4(t), t)^2*(tan(z)^2 +
+2)*diff(yZ3(z, t), t, t, z) - 31104*diff(a4(t), t)^2*tan(z)^3*(tan(z)^2 +
+4/3)*diff(yZ3(z, t), z, z, z) + 4*diff(a4(t), t)*(-36*diff(yZ3(z, t), z,
+z)*tan(z)^2 + diff(yZ3(z, t), t, t) + (3*Q1*yZ3(z, t)*(exp(-2*a4(t)) -
+1)*diff(a4(t), t, t))/2 + (-Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + (-1/2*Q1^2 +
+Q1)*yZ3(z, t)*diff(a4(t), t)^2)*exp(-2*a4(t)) + diff(a4(t),
+t)^2*exp(-4*a4(t))*Q1^2*yZ3(z, t)/4 + 36*(-tan(z)^3 - 2*tan(z))*diff(yZ3(z, t),
+z) + Q1*diff(a4(t), t)*diff(yZ3(z, t), t) + diff(a4(t), t)^2*Q1^2*yZ3(z, t)/4 +
+(M^2 - 9)*yZ3(z, t))*diff(a4(t), t, t, t) + 288*tan(z)^2*(diff(a4(t), t, t)^2 +
+diff(a4(t), t)^2*(exp(-2*a4(t))*Q1 - Q1 + coth(a4(t)) - 1)*diff(a4(t), t, t)/2 +
+diff(a4(t), t)^2*(Q1*diff(a4(t), t)^2*(Q1 - 2)*exp(-2*a4(t))/2 - diff(a4(t),
+t)^2*Q1^2*exp(-4*a4(t))/4 + (-Q1^2/4 + csch(a4(t))^2 - coth(a4(t)) +
+1)*diff(a4(t), t)^2 - 270*tan(z)^4 + M^2 - 504*tan(z)^2 - 261))*diff(yZ3(z, t),
+z, z) + 4*(-2*diff(a4(t), t, t)^2 - diff(a4(t), t)^2*(exp(-2*a4(t))*Q1 - Q1 +
+coth(a4(t)) - 1)*diff(a4(t), t, t) - 2*diff(a4(t), t)^2*(Q1*diff(a4(t), t)^2*(Q1
+- 2)*exp(-2*a4(t))/2 - diff(a4(t), t)^2*Q1^2*exp(-4*a4(t))/4 + (-Q1^2/4 +
+csch(a4(t))^2 - coth(a4(t)) + 1)*diff(a4(t), t)^2 + M^2 - 9))*diff(yZ3(z, t), t,
+t) - 288*diff(a4(t), t)*(tan(z)^2 + 2)*tan(z)*(diff(a4(t), t, t) + diff(a4(t),
+t)^2*(-1 + coth(a4(t))))*diff(yZ3(z, t), t, z) - 4*Q1*yZ3(z, t)*(exp(-2*a4(t)) -
+1)*diff(a4(t), t, t)^3 + (2*diff(a4(t), t)*Q1*(yZ3(z, t)*diff(a4(t), t)*Q1 +
+2*diff(yZ3(z, t), t))*exp(-2*a4(t)) - diff(a4(t), t)^2*exp(-4*a4(t))*Q1^2*yZ3(z,
+t) + 288*(tan(z)^3 + 2*tan(z))*diff(yZ3(z, t), z) - 4*Q1*diff(a4(t),
+t)*diff(yZ3(z, t), t) - 8*(Q1^2*diff(a4(t), t)^2/8 + M^2 - 9)*yZ3(z,
+t))*diff(a4(t), t, t)^2 - 4*(diff(a4(t), t)*(36*(-tan(z)^3 -
+2*tan(z))*diff(yZ3(z, t), z) + diff(a4(t), t)*(Q1 - 2)*diff(yZ3(z, t), t) +
+yZ3(z, t)*(-9 + ((-3/2*Q1^2 - Q1)*diff(a4(t), t)^2)/2 + M^2))*Q1*exp(-2*a4(t)) +
+(3*diff(a4(t), t)^2*Q1^2*(-(2*diff(yZ3(z, t), t))/3 + yZ3(z, t)*diff(a4(t),
+t)*(Q1 + 2/3))*exp(-4*a4(t)))/4 - diff(a4(t), t)^3*exp(-6*a4(t))*Q1^3*yZ3(z,
+t)/4 + 3*diff(a4(t), t)^3*exp(-a4(t))*Q1*yZ3(z, t)*csch(a4(t)) + 36*diff(a4(t),
+t)*tan(z)*(tan(z)^2 + 2)*(Q1 - coth(a4(t)) + 1)*diff(yZ3(z, t), z) + (18 - 2*M^2
+- Q1^2*diff(a4(t), t)^2/2)*diff(yZ3(z, t), t) - yZ3(z, t)*diff(a4(t),
+t)*(-diff(a4(t), t)^2*Q1^3/4 + (M - 3)*(M + 3)*(Q1 - coth(a4(t)) +
+1)))*diff(a4(t), t)*diff(a4(t), t, t) - 4*diff(a4(t), t)^2*(-diff(a4(t),
+t)^2*Q1*(36*tan(z)*(tan(z)^2 + 2)*(Q1 - 2)*diff(yZ3(z, t), z) + Q1*diff(a4(t),
+t)*diff(yZ3(z, t), t) + yZ3(z, t)*((Q1^3/4 - Q1^2/2 + csch(a4(t))^2 -
+Q1)*diff(a4(t), t)^2 + M^2*Q1 + 2*M^2 + 9*Q1 - 18))*exp(-2*a4(t)) + diff(a4(t),
+t)^2*Q1^2*(36*(tan(z)^3 + 2*tan(z))*diff(yZ3(z, t), z) + 2*diff(a4(t),
+t)*diff(yZ3(z, t), t) + yZ3(z, t)*((3/4*Q1^2 - 2*Q1)*diff(a4(t), t)^2 + M^2 +
+9))*exp(-4*a4(t))/2 - yZ3(z, t)*diff(a4(t), t)^4*Q1^3*(Q1 - 2)*exp(-6*a4(t))/4 +
+2*diff(a4(t), t)^3*exp(-a4(t))*diff(yZ3(z, t), t)*Q1*csch(a4(t)) + diff(a4(t),
+t)^4*exp(-8*a4(t))*Q1^4*yZ3(z, t)/16 - 72*(-((tan(z)^2 + 2)*(Q1^2 -
+4*csch(a4(t))^2 + 4*coth(a4(t)) - 4)*diff(a4(t), t)^2)/4 - 270*tan(z)^6 -
+594*tan(z)^4 + (M^2 - 405)*tan(z)^2 + 2*M^2 - 90)*tan(z)*diff(yZ3(z, t), z) -
+2*diff(a4(t), t)*(M - 3)*(M + 3)*(-1 + coth(a4(t)))*diff(yZ3(z, t), t) + yZ3(z,
+t)*((Q1^4/16 - Q1*csch(a4(t))^2)*diff(a4(t), t)^4 + (-18 - 18*csch(a4(t))^2 +
+18*coth(a4(t)) + 2*M^2 + M^2*Q1^2/2 + 2*csch(a4(t))^2*M^2 - 2*coth(a4(t))*M^2 +
+(9*Q1^2)/2)*diff(a4(t), t)^2 + (M - 3)^2*(M + 3)^2)))/(4*diff(a4(t), t)^2)}}

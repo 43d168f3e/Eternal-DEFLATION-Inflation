@@ -41,15 +41,18 @@ however, our scenario unfolds before  the  particles  of  the  standard  model  
 
 I coupled Einstein gravity to the wave function of the Universe (Universes of mass +/- M),
 and have solved the Euler-Lagrange equations for the wave function of the universe(s).
-Solutions are computed/displayed in  
-'Pair_Creation_of_Universes_WaveFunctionUniverse-4+4-Einstein-Lovelock-Nash-ALT.nb'/'Pair_Creation_of_Universes_WaveFunctionUniverse-4+4-Einstein-Lovelock-Nash-ALT.pdf'
-and  
-'ConvertMapleToMathematicaVersionALPHA.nb'/'ConvertMapleToMathematicaVersionALPHA.pdf.'
+Scratch work  solutions are computed/displayed in 
+Pair-Crtn-Univ-same_E-L-eqs-alt-approach.nb.pdf,
+Pair-Crtn-Univ-same_E-L-eqs-and-solutions.pdf and
+Pair-Crtn-Univ-same_E-L-eqs-alt-approach.nb.
+These contain lengthy Maple solutions/parameterizations of the solutions
+of the Euler-Lagrange equations for the universe's wave function, in  4 space dimensions and 4 time dimensions.
 
-I added 'ConvertMapleToMathematicaVersionALPHA.m,' which is a version-alpha parser I made to translate fromsolutions from maple to mathematica.
 
 
-Also, I have added a scratch work solution, "WaveFunctionUniverse-4+4-Einstein-Lovelock-Nash.nb", for  4 space dimensions and 4 time dims  [ordinary time coordinate = x4];
+
+I added 'ConvertMapleToMathematicaV2.wl,' which is a version-alpha parser I made to translate fromsolutions from maple to mathematica.
+
 
 Also, I have added a very scratch work solution, "Einstein-Lovelock-7+1-Nash.nb", for 7 space dimensions and 1 time dim;
 in which :
